@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-
+// This was for the idea of the slope but it was not necessary
 int main() {
     double x1, x2;
     double y1, y2;

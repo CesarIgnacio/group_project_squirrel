@@ -51,4 +51,4 @@ END {
     print "South-East " SE;
     print "South-West " SW;
     print "There are " total " squirrels that live in the " max " part of Central Park";
-    print "Majority of these Squirrels are "max " central park"; }
+    print "Majority of these Squirrels are "max " central park";}
