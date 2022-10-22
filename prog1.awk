@@ -1,6 +1,6 @@
 #!/usr/bin/awk
 BEGIN {
-    print "Location of every Squirrel"
+    print "\nDistribution of the squirrels in Central Park:"
     NE = 0
     NW = 0
     SE = 0
@@ -46,9 +46,12 @@ if(NE > NW && NE > SE && NE > SW){
 }
 
 END {
-    print "North-East " NE;
-    print "North-West " NW;
-    print "South-East " SE;
-    print "South-West " SW;
-    print "There are " total " squirrels that live in the " max " part of Central Park";
-    print "Majority of these Squirrels are "max " central park";}
+    printf "%-10s%8s\n", "Location", "Amount"
+    printf "%-10s%8s\n", "--------", "------"
+    printf "%-10s%8d\n", "North-East", NE
+    printf "%-10s%8d\n", "North-West", NW
+    printf "%-10s%8d\n", "South-East", SE
+    printf "%-10s%8d\n", "South-West", SW
+    
+    print "\nThe majority of these squirrels live in the "max " quadrant of Central Park,\nwith a total of " total " squirrels\n"
+}
