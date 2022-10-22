@@ -1,5 +1,5 @@
 BEGIN {
-    print "\nFrequency of every squirrel primary fur color:"
+    print "\nFrequency of every squirrel primary fur color:\n"
 
     gray = 0
     cinnamon = 0
