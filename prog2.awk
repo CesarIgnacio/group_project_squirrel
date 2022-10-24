@@ -1,6 +1,5 @@
 BEGIN {
-    FS = ","
-    print "\nFrequency of every squirrel primary fur color:\n"
+    print "\nQ2: Frequency of every squirrel primary fur color:\n"
 
     gray = 0
     cinnamon = 0
@@ -16,6 +15,7 @@ BEGIN {
     juvenileCinnamon = 0
     juvenileBlack = 0
     juvenileUnidentify = 0
+    FS = ","
 }
 
 {

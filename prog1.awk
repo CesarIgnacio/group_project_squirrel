@@ -1,6 +1,6 @@
 #!/usr/bin/awk
 BEGIN {
-    print "\nDistribution of the squirrels in Central Park:\n"
+    print "\nQ1: Distribution of the squirrels in Central Park:\n"
     NE = 0
     NW = 0
     SE = 0

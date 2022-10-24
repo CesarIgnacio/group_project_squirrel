@@ -1,6 +1,5 @@
 BEGIN {
-    FS = ","
-    print "\nHow do squirrels react to a camera / person with a camera?\n"
+    print "\nQ4: How do squirrels react to a camera / person with a camera?\n"
     
     runs = 0
     no_runs = 0
@@ -14,6 +13,7 @@ BEGIN {
     
     no_runs_no_indifferents_approaches = 0
     no_runs_no_indifferents_no_approaches = 0
+    FS = ","
 }
 
 {
