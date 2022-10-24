@@ -6,6 +6,7 @@ BEGIN {
     SE = 0
     SW = 0
     total = 0
+    FS = ","
 }
 
 {
