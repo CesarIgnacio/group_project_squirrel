@@ -1,0 +1,85 @@
+Script started on 2022-10-24 19:20:43-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;root@DESKTOP-E8ASCDM: /mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrelroot@DESKTOP-E8ASCDM:/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel# make
+make run n=prog1
+make[1]: Entering directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+gawk -f prog1 Squirrels.csv    
+
+Q1: Distribution of the squirrels in Central Park:
+
+Location    Amount
+--------    ------
+North-East       7
+North-West    1043
+South-East    1550
+South-West     424
+
+The majority of these squirrels live in the South-East quadrant of Central Park,
+with a total of 1550 squirrels
+
+make[1]: Leaving directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+make run n=prog2
+make[1]: Entering directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+gawk -f prog2 Squirrels.csv    
+
+Q2: Frequency of every squirrel primary fur color:
+
+Color       Amount  Adults      %  Juvenile      %
+-----       ------  ------      -  --------      -
+Cinnamon       392     326   10.8        66    2.2
+Black          103      92    3.0        11    0.4
+Gray          2473    2125   70.3       348   11.5
+Unidentify      56      25    0.8        31    1.0
+
+The MOST common fur color is Gray
+Total number of squirrels 3023
+
+make[1]: Leaving directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+make run n=Q3
+make[1]: Entering directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+gawk -f Q3 Squirrels.csv    
+
+Q3: Ratio of Single Colored and Multicolored squirrel fur:
+
+  S.Colored  M.Colored  Total
+  ---------  ---------  -----
+     1086       1938     3023
+
+Out of 3024.0 Squirrels
+	- 64.1% have multiple fur colors, and
+	- 35.9% have only one fur color
+
+make[1]: Leaving directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+make run n=prog4
+make[1]: Entering directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+gawk -f prog4 Squirrels.csv    
+
+Q4: How do squirrels react to a camera / person with a camera?
+
+
+There are 646 squirrels that run from the camera, and 2378 that don't run.
+	- Out of the 2378 that don't run, 1248 are indifferent , and 1130 that aren't
+		-- Out of the 1130 no indifferent ones, 125 approaches, and 1005 don't
+
+
+There are 158 squirrels that approaches, and 2866 that don't approaches
+There are 1276 squirrels that indifferent to the camera, and 1748 that aren't
+There are 646 squirrels that run from the camera, and 2378 that don't
+
+make[1]: Leaving directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+make run n=prog5
+make[1]: Entering directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+gawk -f prog5 Squirrels.csv    
+
+Q5: Finding the greater Age group:
+
+There are 330 juvenile squirrels. This represents the 10.9% of the total
+There are 2568 adult squirrels. This represents the 84.9% of the total
+There are 126 squirrels that weren't identified as Juveniles or adults. This represents the 4.17% of the total
+
+In general, there are more Adults than Juveniles in Central Park
+
+make[1]: Leaving directory '/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel'
+]0;root@DESKTOP-E8ASCDM: /mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrelroot@DESKTOP-E8ASCDM:/mnt/c/Users/cesar/Desktop/Web App CISC 3140/group_project_squirrel# exit
+exit
+
+Script done on 2022-10-24 19:20:53-04:00 [COMMAND_EXIT_CODE="0"]
